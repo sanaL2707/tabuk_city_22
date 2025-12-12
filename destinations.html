@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>الوجهات السياحية</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="main-nav">
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">عن تبوك</a>
+    <a href="destinations.html">الوجهات</a>
+    <a href="contact.html">التواصل</a>
+</nav>
+</header>
+
+<section class="destinations">
+
+    <h1>الوجهات</h1>
+
+    <div class="filters">
+        <button onclick="filterDest('all')">الكل</button>
+        <button onclick="filterDest('mountain')">جبال</button>
+        <button onclick="filterDest('history')">تاريخي</button>
+    </div>
+
+    <div id="gallery" class="gallery"></div>
+
+</section>
+
+<script src="js/ajax.js"></script>
+<script src="js/dom.js"></script>
+
+</body>
+</html>

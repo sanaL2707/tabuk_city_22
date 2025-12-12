@@ -1,0 +1,20 @@
+[
+  {
+    "name": "تروجينا",
+    "type": "mountain",
+    "image": "images/tourjaina.jpg",
+    "text": "منطقة جبلية..."
+  },
+  {
+    "name": "جبل الزيتة",
+    "type": "mountain",
+    "image": "images/zaita.jpg",
+    "text": "من أجمل جبال..."
+  },
+  {
+    "name": "العمق التاريخي",
+    "type": "history",
+    "image": "images/history.jpeg",
+    "text": "أماكن أثرية..."
+  }
+]
