@@ -2,10 +2,11 @@ function filterDest(type) {
     if (type === "all") {
         displayData(allData);
     } else {
-        let filtered = allData.filter(i => i.type === type);
+        const filtered = allData.filter(d => d.type === type);
         displayData(filtered);
     }
 }
+
 
 
 

@@ -3,18 +3,28 @@
     "name": "تروجينا",
     "type": "mountain",
     "image": "images/tourjaina.jpg",
-    "text": "منطقة جبلية..."
+    "text": "وجهة سياحية جبلية فاخرة ومستدامة ضمن مشروع نيوم في المملكة العربية السعودية",
+    "link": "Pages/tourjaina.html"
   },
   {
     "name": "جبل الزيتة",
     "type": "mountain",
     "image": "images/zaita.jpg",
-    "text": "من أجمل جبال..."
+    "text": " سلسلة جبلية تتميز بتكويناتها الصخرية الفريدة وألوانها الساحرة، وتقع في منطقة تبوك شمال غرب المملكة العربية السعودية.",
+    "link": "Pages/zaita.html"
   },
   {
     "name": "العمق التاريخي",
     "type": "history",
     "image": "images/history.jpeg",
-    "text": "أماكن أثرية..."
-  }
+    "text": "تبوك أرض الحضارات القديمة وملتقى الأنباط،هي بوابة الشمال وواحة التاريخ، حيث تتجذر آثارها في عصور ما قبل التاريخ",
+    "link": "Pages/history.html"
+    },
+{
+    "name": "المستقبل",
+    "type": "future",
+    "image": "images/future.jpg",
+    "text": "مشاريع مستقبلية ضمن رؤية 2030.",
+    "link": "Pages/future.html"
+   }
 ]

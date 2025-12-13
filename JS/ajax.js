@@ -1,25 +1,26 @@
 let allData = [];
 
 fetch("data/destinations.json")
-    .then(res => res.json())
-    .then(data => {
-        allData = data;
-        displayData(data);
-    });
+  .then(res => res.json())
+  .then(data => {
+      allData = data;
+      displayData(data);
+  });
 
-function displayData(arr) {
-    let gallery = document.getElementById("gallery");
+function displayData(list) {
+    const gallery = document.getElementById("gallery");
     gallery.innerHTML = "";
 
-    arr.forEach(item => {
+    list.forEach(item => {
         gallery.innerHTML += `
-            <div class="card">
-                <img src="${item.image}">
-                <h3>${item.name}</h3>
-                <p>${item.text}</p>
-            </div>
+        <a href="${item.link}" class="card">
+            <img src="${item.image}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <p>${item.text}</p>
+        </a>
         `;
     });
 }
+
 
 
