@@ -191,3 +191,50 @@ body.light section {
 body.light a {
     color: #111;
 }
+
+.highlight-card {
+  max-width: 900px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.highlight-card h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.highlight-card p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+
+.experience-section {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.experience-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.experience-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.experience-image img {
+  width: 100%;
+  border-radius: 14px;
+}
