@@ -9,6 +9,8 @@ fetch("data/destinations.json")
 
 function displayData(list) {
     const gallery = document.getElementById("gallery");
+    if (!gallery) return;
+
     gallery.innerHTML = "";
 
     list.forEach(item => {
@@ -21,6 +23,3 @@ function displayData(list) {
         `;
     });
 }
-
-
-

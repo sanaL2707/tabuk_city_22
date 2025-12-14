@@ -1,21 +1,36 @@
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-    e.preventDefault();
+// هذه لازم تكون خارج DOMContentLoaded
+function filterDest(type) {
+    if (type === "all") {
+        displayData(allData);
+    } else {
+        const filtered = allData.filter(d => d.type === type);
+        displayData(filtered);
+    }
+}
 
-    let name = document.getElementById("name").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let msg = document.getElementById("msg").value.trim();
+document.addEventListener("DOMContentLoaded", () => {
 
-    if (!name || !email || !msg) {
-        alert("يرجى تعبئة جميع الحقول");
-        return;
+    const button = document.getElementById("toggleInfo");
+    const historySection = document.getElementById("history");
+
+    if (button && historySection) {
+        button.addEventListener("click", () => {
+            historySection.classList.toggle("hidden");
+            button.textContent =
+                historySection.classList.contains("hidden")
+                ? "عرض معلومات إضافية"
+                : "إخفاء المعلومات";
+        });
     }
 
-    if (!email.includes("@")) {
-        alert("هذا البريد غير صالح");
-        return;
-    }
-
-    document.getElementById("status").innerHTML = "تم إرسال الرسالة بنجاح ✓";
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const themeBtn = document.getElementById("themeToggle");
 
+    if (themeBtn) {
+        themeBtn.addEventListener("click", () => {
+            document.body.classList.toggle("light");
+        });
+    }
+});
 
