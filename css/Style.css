@@ -172,17 +172,6 @@ opyright {
     font-size: 14px;
     opacity: 0.7;
 }
-/*الثيم */
-body.light {
-    background-color: #f5f5f5;
-    color: #111;
-}
-
-body.light .feature-box,
-body.light .history {
-    background-color: #ffffff;
-    color: #111;
-}
 
 
 /* about */
@@ -540,6 +529,7 @@ body.light {
     color: #111;
 }
 
+body.light categories,
 body.light .main-nav,
 body.light footer,
 body.light .card,
@@ -588,4 +578,28 @@ body.light a {
   width: 100%;
 }
 
+.highlight-card {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 50px 60px;
+  text-align: center;
 
+  background-color: #D2B48C;   /* لون خفيف جدًا */
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+
+.highlight-card h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.highlight-card p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 20px;
+}

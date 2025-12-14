@@ -234,18 +234,20 @@ body.light a {
 }
 
 .experience-card h3 {
-  font-size: 22px;
+  font-size: 21px;
   margin-bottom: 15px;
-  color: #111;
+  line-height: 1.4;
 }
 
 .experience-card p {
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 1.8;
-  color: #444;
 }
+
 
 .experience-image img {
   width: 100%;
-  border-radius: 14px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
 }
+
