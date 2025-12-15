@@ -34,11 +34,11 @@ body.neom-dark {
 
 body.neom-dark .neom-header {
     background: 
-                url('../images/neom_header.jpeg') center/cover !important;
+                url('../images/neom_header.jpeg') ;
 }
 
 body.neom-dark .main-nav {
-    background: #16213e !important;
+    background: #0f3460 !important;
 }
 
 body.neom-dark .main-nav a {
@@ -56,7 +56,7 @@ body.neom-dark .tech-point {
 }
 
 body.neom-dark .section-title {
-    color: #4cc9f0 !important;
+    color: white !important;
 }
 
 body.neom-dark .goal-box h3,
