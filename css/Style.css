@@ -137,6 +137,7 @@ footer {
     padding: 40px 0 20px;
     margin-top: 40px;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 .footer-container {
@@ -286,7 +287,10 @@ opyright {
 .filters button:hover {
     background: #c9a875;
 }
-
+body.light .filters button {
+    background: white !important;
+    color: black !important;
+}
 /* gallery grid */
 .gallery {
     display: grid;
@@ -330,6 +334,13 @@ opyright {
     color: #555;
     padding: 0 15px 20px;
 }
+
+body.light .gallery .card {
+    background: white !important;
+    color: #111 !important;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15) !important;
+}
+
 
 /* contact*/
 .contact {
@@ -526,10 +537,14 @@ body.light .main-nav,
 body.light footer,
 body.light .card,
 body.light section {
-    background-color: #f5deb3;
+    background-color: #bc8f8f;
     color: #111;
 }
 
+body.light .categories .card {
+    background: white !important;
+    color: #111 !important;
+}
 body.light a {
     color: #111;
 }
@@ -775,13 +790,5 @@ color:#EADDCA ;
 
 body.history-Page.light {
     background-color: #f5deb3;
-    color: #111;
-}
-body.light categories,
-body.light .main-nav,
-body.light footer,
-body.light .card,
-body.light section {
-    background-color: #bc8f8f;
     color: #111;
 }
