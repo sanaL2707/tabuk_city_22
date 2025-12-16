@@ -1,12 +1,13 @@
 let allData = [];
-
+/*يجيب بيانات من جسون*/
 fetch("data/destinations.json")
   .then(res => res.json())
   .then(data => {
+      /*يحفظها في الداتا عشان نستخدمها بعدين*/
       allData = data;
       displayData(data);
   });
-
+/*يعرض بيانات جسون*/
 function displayData(list) {
     const gallery = document.getElementById("gallery");
     if (!gallery) return;

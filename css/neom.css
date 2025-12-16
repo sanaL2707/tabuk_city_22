@@ -1,4 +1,4 @@
-/* ألوان نيوم */
+/* ألوان نيو */
 :root {
     --neom-blue: #0f4c75;
     --neom-teal: #00b7c2;
@@ -7,12 +7,8 @@
     --neom-white: #ffffff;
 }
 
-/* أساسيات */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
 
 body {
     font-family: 'Tajawal', sans-serif;
@@ -24,9 +20,7 @@ body {
 }
 
 /* الوضع الليلي */
-/* ===== الوضع الليلي لصفحة نيوم ===== */
 
-/* الوضع الداكن لصفحة نيوم */
 body.neom-dark {
     background: #1a1a2e !important;
     color: #e6e6e6 !important;
@@ -94,7 +88,7 @@ body.neom-dark #themeToggle {
     opacity: 0.9;
 }
 
-/* شريط التنقل */
+/* شريط*/
 .main-nav {
     background: var(--neom-white);
     padding: 15px 0;
@@ -127,7 +121,7 @@ body.neom-dark #themeToggle {
     cursor: pointer;
 }
 
-/* المحتوى الرئيسي */
+
 .neom-main {
     max-width: 1100px;
     margin: 0 auto;
@@ -297,7 +291,7 @@ footer {
     margin-top: 20px;
 }
 
-/* التجاوبية */
+/* حركة التصغير */
 @media (max-width: 768px) {
     .neom-header {
         padding: 50px 20px;
